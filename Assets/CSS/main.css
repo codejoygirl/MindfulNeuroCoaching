@@ -2,9 +2,9 @@
 
 
 :root{
-    --clr-blue: #458ff6;
+    --clr-blue: #e9e112;
     --clr-black: #000;
-    --clr-white: #fff;
+    --clr-white: #000000;
     --clr-gray: #7d7987;
     --clr-dark-blue: #233348;
     --clr-dark-purple: #1f1534;
@@ -223,6 +223,7 @@ button{
     font-size: 24px;
     margin-top: 22px;
     margin-bottom: 12px;
+    color: #e9e112;
 }
 .services-shape{
     position: absolute;
@@ -287,7 +288,7 @@ button{
 }
 .feedback-content{
     max-width: 1120px;
-    background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+    background: linear-gradient(208.18deg, #e9e112 9.05%, #e9e112 76.74%);
     border-radius: 24px;
     margin-right: auto;
     margin-left: auto;
@@ -354,11 +355,11 @@ button{
     top: calc(100% + 40px);
 }
 .feedback-list .owl-dots .owl-dot span{
-    background-color: var(--clr-blue)!important;
+    background-color: yellow;
     opacity: 0.3;
 }
 .feedback-list .owl-dots .owl-dot:hover span{
-    background-color: var(--clr-blue)!important;
+    background-color:#e9e112;
     opacity: 1;
 }
 .feedback-list .owl-dots .owl-dot.active span{
@@ -372,7 +373,7 @@ button{
 }
 .feedback-list .owl-nav button:hover{
     background-color:transparent!important;
-    color: var(--clr-blue)!important;
+    color: yellow;
 }
 .feedback-list .owl-nav .owl-prev{
     margin-right: 286px;
@@ -461,7 +462,7 @@ button{
 /* footer */
 .footer{
     margin-top: 136.6px;
-    background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+    background: linear-gradient(183.41deg, #e9e112 -8.57%, #e9e112 82.96%);
     padding-top: 118px;
     padding-bottom: 109px;
     position: relative;
@@ -692,10 +693,12 @@ button{
     .feedback-list .feedback-item{
         grid-template-columns: repeat(1, 1fr);
         padding: 32px;
+       
     }
     .feedback-list .feedback-item .item-right{
         max-width: 100%;
         margin-top: 24px;
+        
     }
     .feedback-list .owl-nav .owl-prev{
         margin-right: 200px;
@@ -704,12 +707,14 @@ button{
         width: 40px;
         right: 5px;
         top: 5px;
+      
     }
     .feedback-content .feedback-element-2{
         width: 50px;
         left: 0;
+      
     }
-
+   
     /* articles */
     .sc-articles{
         padding: 100px 0;
